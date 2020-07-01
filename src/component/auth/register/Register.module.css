@@ -1,0 +1,186 @@
+ 
+form {
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+      }
+  
+      .wraplogin {
+        width: 800px;
+        background: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 6% 5% 5% 4%;
+      }
+  
+      .limiter {
+        width: 100%;
+        margin: 0 auto;
+      }
+      .loginform {
+        width: 100%;
+      }
+
+      .displayTable {
+        width: 100%;
+        display: table;
+      }
+  
+  
+      .loginformtitle {
+        display: block;
+        font-family: 'Montserrat';
+        font-weight: bolder;
+        font-size: 39px;
+        color: #333333;
+        line-height: 1.2;
+        text-align: center;
+        padding-bottom: 49px;
+      }
+  
+      .wrapinput {
+        width: 33%;
+        padding-left: 3%;
+        position: relative;
+        display: table-cell;
+        border-bottom: 2px solid #d9d9d900;
+        margin-bottom: 23px;
+      }
+      .labelinput {
+        font-family: 'Montserrat';
+        font-size: 14px;
+        color: #333333;
+        line-height: 1.5;
+        padding-left: 7px;
+      } 
+      .container {
+        width: 100%;  
+        /* background-image: url('../../asset/images/background.jpg'); */
+        min-height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      
+      .inputBox:focus + .focusinput::before {
+        width: 100%;
+      }
+    
+      .formDiv{
+        padding-top: 8%;
+      }
+
+      .react-datepicker-wrapper::after {
+        display: inline-block;
+        padding: 0;
+        border: 0;
+        width: 100%;
+    }
+  
+      .loginbtn {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      .labelBox,
+      .inputBox {
+        font-family: 'Montserrat';
+        font-size: 16px;
+        color: #333333;
+        line-height: 1.2;
+      
+        display: block;
+        width: 100%;
+        height: 55px;
+        background: transparent;
+        outline: none;
+        border: none;
+      }
+      
+      .labelBox {
+        margin-bottom: 12px;
+        height: 22px;
+        font-size: 16px;
+        font-family: 'Montserrat';
+      }
+      
+      .inputBox {
+        margin-bottom: 30px;
+        height: 2%;
+        padding: 10px;
+        border-radius: 3px;
+        background: #4699b30d;
+      }
+      
+      .inputBox.error {
+        background-color: #ff00000f;
+      }
+      
+      .inputFeedback {
+        color: red;
+        margin-top: -20px;
+        font-size: 14px;
+        /* margin-bottom: 30px; */
+      }
+
+
+  
+      .buttonSave {
+        padding: 10px 48px;
+        font-size: 22px;
+        width: 30%;
+        float: right;
+        display: table-cell;
+        font-family: 'Montserrat';
+        border-radius: 55px;
+        background-color: rgb(70, 153, 179);
+        color: white;
+        border: 1px solid rgb(70, 153, 179);
+        background-color: 250ms;
+      }
+      
+      .buttonSave:hover {
+        cursor: pointer;
+        background-color: white;
+        color: rgb(70, 153, 179);
+      }
+
+      .buttonCancel {
+        padding: 10px 48px;
+        font-size: 22px;
+        width: 30%;
+        float: right;
+        margin-right: 3%;
+        display: table-cell;
+        font-family: 'Montserrat';
+        border-radius: 55px;
+        background-color: rgb(64, 64, 64);
+        color: white;
+        border: 1px solid rgb(64, 64, 64);
+        background-color: 250ms;
+      }
+      
+      .buttonCancel:hover {
+        cursor: pointer;
+        background-color: white;
+        color: rgb(64, 64, 64);
+      }
+  
+      @media (max-width: 576px) {
+        .wraplogin {
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+      } 
+      

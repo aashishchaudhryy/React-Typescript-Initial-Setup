@@ -1,0 +1,33 @@
+.Header{
+    background: #fff;
+    color: rgb(70, 153, 179);
+    font-family: 'Montserrat';
+    font-size: 30px;
+    padding: 12px 12px 12px 20px;
+    font-weight: bolder;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    border: 1px solid rgb(70, 153, 179);
+}
+
+.RightLink{
+    font-family: 'Montserrat';
+    text-align: right;
+    padding: 12px 12px 12px 15px;
+    float: right;
+    color: black;
+    font-size: 15px;
+}
+
+.RightLink::before{
+    content: "·";
+    float: left;
+    font-size: 2.8rem;
+    line-height: 1rem;
+    color: black;
+    margin-left: -.7rem;
+    margin-right: 0.2rem;
+}
